@@ -10,7 +10,6 @@ fun analise (num1: Int, num2: Int, num3: Int): Int {
     }
     else if (num2 > num1 && num2 > num3){
         return num2
-
     }
     else if (num3 > num1 && num3 > num2){
         return num3
@@ -18,6 +17,4 @@ fun analise (num1: Int, num2: Int, num3: Int): Int {
     else {
         return 0
     }
-
-
 }
